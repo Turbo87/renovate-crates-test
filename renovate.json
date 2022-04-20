@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "config:base",
+    ":dependencyDashboard",
+    ":maintainLockFilesWeekly",
+    ":pinAllExceptPeerDependencies",
+    ":semanticCommitsDisabled"
+  ]
+}
